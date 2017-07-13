@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Gotham</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="jqwidgets/jqwidgets/styles/jqx.base.css" type="text/css"/>
+		<script type="text/javascript" src="jqwidgets/scripts/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="jqwidgets/jqwidgets/jqxcore.js"></script>
+		<script type="text/javascript" src="jqwidgets/jqwidgets/jqxdatetimeinput.js"></script>
+		<script type="text/javascript" src="jqwidgets/jqwidgets/jqxcalendar.js"></script>
+		<script type="text/javascript" src="jqwidgets/jqwidgets/globalization/globalize.js"></script>
+	</head>
+<body>
+	<script type="text/javascript">
+      $(document).ready(function () {
+          $("#jqxcalendar").jqxCalendar({ width: '250px', height: '250px' });
+          $('#jqxcalendar').bind('valuechanged', function (event) {
+              var date = event.args.date;
+              $("#log").text(date.toDateString());
+          });
+      });
+  </script>  
+	<div id="wrapper">
+		<header>
+			<nav>
+					<li><a href="#">CULTURE</a></li>
+					<li><a href="#">EVENTS</a></li>
+					<li><a href="#">FOOD</a></li>
+			</nav>
+			<div class="nav-btn"></div>
+			<div class="logo-header"><a href="#"><img src="img/logo.jpg" alt="logo"></a></div>
+			<nav>
+					<li><a href="#">TRAVELLING</a></li>
+					<li><a href="#">FASHION</a></li>
+					<li><a href="#">OTHER</a></li>
+			</nav>
+		</header>
+		<div id="content">
+			<div class="content-left">
+				<div class="h2-left"><h2>Recent Articles</h2></div>
+				<div class="block-left">
+					<div class="img-left"><img src="img/shutterstock_309104222.jpg" width="220px" height="160px" style="border-radius: 8px 8px;"></div>
+					<div class="block-left-content">
+						<div><a href="#"><h3 style="margin: 0;">5 Standout Things to Know About the 2016 Cannes Film Festival</h3></a></div>
+							<div><p><span style="color: gray;">June 8,2016 | by Saveliy Bondini | </span><span style="color: orange;">Culture</span></p></div>
+							<div>The 69th annual Cannes Film Festival won`t officially kick off until tomorrow evening, but it is already well underway: Kristen Stewart has explicated her personal renaissance on the cover of Variety, Amazon has been awarded the ... <span style="color: orange;">></div>
+							<div><p><img src="img/icon-eye.jpg"><span style="color: gray;"> 266 <img src="img/icon-comments.jpg"> | </span><span style="color: orange;">3</span></p></div>
+					</div>
+				</div>
+				<div class="block-left">
+					<div class="img-left"><img src="img/shutterstock_129499847.jpg" width="220px" height="160px" style="border-radius: 8px 8px;"></div>
+					<div class="block-left-content">
+						<div><a href="#"><h3 style="margin: 0;">Why I Don`t Believe in the Marie kondo Closet Clean</h3></a></div>
+							<div><p><span style="color: gray;">June 8,2016 | by Justin Westbrook | </span><span style="color: orange;">Fashion</span></p></div>
+							<div>You know how sometimes when you are in an elevator you are forced to overhear conversations and you can`t really interrupt even if you feel somehow the comments are directed at you? There i was, descending in a fashion building ... <span style="color: orange;">></div>
+							<div><p><img src="img/icon-eye.jpg"><span style="color: gray;"> 163 <img src="img/icon-comments.jpg"> | </span><span style="color: orange;">0</span></p></div>
+					</div>
+				</div>
+				<div class="block-left">
+					<div class="img-left"><img src="img/shutterstock_309104222.jpg" width="220px" height="160px" style="border-radius: 8px 8px;"></div>
+					<div class="block-left-content">
+						<div><a href="#"><h3 style="margin: 0;">5 Standout Things to Know About the 2016 Cannes Film Festival</h3></a></div>
+							<div><p><span style="color: gray;">June 8,2016 | by Saveliy Bondini | </span><span style="color: orange;">Culture</span></p></div>
+							<div>The 69th annual Cannes Film Festival won`t officially kick off until tomorrow evening, but it is already well underway: Kristen Stewart has explicated her personal renaissance on the cover of Variety, Amazon has been awarded the ... <span style="color: orange;">></div>
+							<div><p><img src="img/icon-eye.jpg"><span style="color: gray;"> 266 <img src="img/icon-comments.jpg"> | </span><span style="color: orange;">3</span></p></div>
+					</div>
+				</div>
+				<div class="block-left">
+					<div class="img-left"><img src="img/shutterstock_285783236.jpg" width="220px" height="160px" style="border-radius: 8px 8px;"></div>
+					<div class="block-left-content">
+						<div><a href="#"><h3 style="margin: 0;">21 Reasons the Cool kids of Colombia Flock to Medellin</h3></a></div>
+							<div><p><span style="color: gray;">June 8,2016 | by Justin Westbrook | </span><span style="color: orange;">Travelling</span></p></div>
+							<div>The 69th annual Cannes Film Festival won`t officially kick off until tomorrow evening, but it is already well underway: Kristen Stewart has explicated her personal renaissance on the cover of Variety, Amazon has been awarded the ... <span style="color: orange;">></div>
+							<div><p><img src="img/icon-eye.jpg"><span style="color: gray;"> 941 <img src="img/icon-comments.jpg"> | </span><span style="color: orange;">17</span></p></div>
+					</div>
+				</div>
+				<div class="block-left">
+					<div class="img-left"><img src="img/shutterstock_309104222.jpg" width="220px" height="160px" style="border-radius: 8px 8px;"></div>
+					<div class="block-left-content">
+						<div><a href="#"><h3 style="margin: 0;">5 Standout Things to Know About the 2016 Cannes Film Festival</h3></a></div>
+							<div><p><span style="color: gray;">June 8,2016 | by Saveliy Bondini | </span><span style="color: orange;">Culture</span></p></div>
+							<div>The 69th annual Cannes Film Festival won`t officially kick off until tomorrow evening, but it is already well underway: Kristen Stewart has explicated her personal renaissance on the cover of Variety, Amazon has been awarded the ... <span style="color: orange;">></div>
+							<div><p><img src="img/icon-eye.jpg"><span style="color: gray;"> 266 <img src="img/icon-comments.jpg"> | </span><span style="color: orange;">3</span></p></div>
+					</div>
+				</div>
+				<div class="button-bottom">
+					<div class="button-bottom-child">MORE ARTICLES</div>
+				</div>
+			</div>
+			<div class="content-right">
+				<input type="text">
+				<div id='jqxcalendar'></div>
+				<h3>Popular News <span style="color: gray;">———————</span></h3>
+					<div class="block-right">
+						<div class="block-right-content">
+							<p class="gray">June 5, 2016</p>
+							<a href="#"><p class="bold">Scene: The Guide</p></a>
+						</div>
+					</div>
+					<div class="block-right">
+						<div class="block-right-content">
+							<p class="gray">June 5, 2016</p>
+							<a href="#"><p class="bold">Discovering Relatives and Relics</p><p class="bold"> in Southern Sweden</p></a>
+						</div>
+					</div>
+					<div class="block-right">
+						<div class="block-right-content">
+							<p class="gray">May 29, 2016</p>
+							<a href="#"><p class="bold">Wileman Home Tour: Exeter </p><p class="bold"> History Restored</p></a>
+						</div>
+					</div>
+					<div class="block-right">
+						<div class="block-right-content">
+							<p class="gray">May 27, 2016</p>
+							<a href="#"><p class="bold">Spring Seafood Medley</p></a>
+						</div>
+					</div>
+					<div class="block-right">
+						<div class="block-right-content">
+							<p class="gray">May 19, 2016</p>
+							<a href="#"><p class="bold">Easter Brunch with a Bite</p></a>
+						</div>
+					</div>
+			</div>
+		</div>
+		<footer>
+			<div class="gray">@ 2016 Gotham. All rights reserved</div>
+			<div>
+				<li><a href="#">About Blog</a></li>
+				<li><a href="#">Need Help?</a></li>
+				<li><a href="#">Content Guide</a></li>
+			</div>
+			<div class="icons-footer">
+				<a href="#"><img src="img/icon-fb.jpg" width="40px" height="40px"></a>
+				<a href="#"><img src="img/icon-tw.jpg" width="40px" height="40px"></a>
+				<a href="#"><img src="img/icon-google.jpg" width="40px" height="40px"></a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
